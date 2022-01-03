@@ -1,0 +1,8 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/colorAccent"/>
+    <corners
+        android:topRightRadius="20dip"
+        android:bottomRightRadius="20dip" />
+    <!--圆角矩形白色背景-->
+</shape>

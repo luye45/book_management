@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.books_management">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.ViewBookActivity" />
+        <activity android:name=".activity.UpdateMyInfoActivity" />
+        <activity android:name=".activity.BookActivity" />
+        <activity android:name=".activity.UserActivity" />
+        <activity android:name=".activity.MarkActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.ShowUserActivity" />
+        <activity android:name=".activity.UpdateUserActivity" />
+        <activity android:name=".activity.StoreBookActivity" />
+        <activity android:name=".activity.ShowBookActivity" />
+        <activity android:name=".activity.UpdateBookActivity" />"
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

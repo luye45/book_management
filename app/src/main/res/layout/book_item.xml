@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="15dp"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:id="@+id/book_profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/zanwu"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="book.name"
+            android:textSize="21dp"
+            android:textColor="@color/textcolor"
+            android:id="@+id/book_name"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:text="book.author"
+            android:id="@+id/book_author"
+            android:textSize="18dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/book_press"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="book.press"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/book_recommendation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:isIndicator="true"
+                android:text="⭐⭐⭐"
+                android:textColor="#999"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

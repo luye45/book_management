@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.book_management"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.books_management.activity.MainActivity" />
+        <activity android:name="com.example.books_management.activity.ViewBookActivity" />
+        <activity android:name="com.example.books_management.activity.UpdateMyInfoActivity" />
+        <activity android:name="com.example.books_management.activity.BookActivity" />
+        <activity android:name="com.example.books_management.activity.UserActivity" />
+        <activity android:name="com.example.books_management.activity.MarkActivity" />
+        <activity android:name="com.example.books_management.activity.RegisterActivity" />
+        <activity android:name="com.example.books_management.activity.ShowUserActivity" />
+        <activity android:name="com.example.books_management.activity.UpdateUserActivity" />
+        <activity android:name="com.example.books_management.activity.StoreBookActivity" />
+        <activity android:name="com.example.books_management.activity.ShowBookActivity" />
+        <activity android:name="com.example.books_management.activity.UpdateBookActivity" />
+"
+        <activity android:name="com.example.books_management.activity.SearchActivity" />
+        <activity android:name="com.example.books_management.activity.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.book_management.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

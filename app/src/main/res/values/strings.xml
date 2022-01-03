@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">图书管理系统</string>
+    <string name="spinner_sex">请选择性别</string>
+    <string name="spinner_category">请选择类别</string>
+    <string name="spinner_press">请选择出版社</string>
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="category">
+        <item>科学</item>
+        <item>教育</item>
+        <item>文学</item>
+        <item>生活</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="press">
+        <item>人民出版社</item>
+        <item>中国农业出版社</item>
+        <item>人民文学出版社</item>
+        <item>商务印书馆</item>
+        <item>作家出版社</item>
+    </string-array>
+    <string-array name="search_by">
+        <item>书号</item>
+        <item>书名</item>
+        <item>作者</item>
+        <item>类别</item>
+        <item>出版社</item>
+    </string-array>
+</resources>
